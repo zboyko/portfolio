@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 
 import AboutCard from '../AboutCard';
 import { InfoConsumer } from '../context';
+import { Jumbotron } from '../Jumbotron';
 
 class Home extends Component {
   render() {

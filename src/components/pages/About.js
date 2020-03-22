@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { InfoConsumer } from '../context';
 import Info from '../Info';
+import { Jumbotron } from '../Jumbotron';
 
 class About extends Component {
   render() {

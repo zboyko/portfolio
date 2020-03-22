@@ -33,7 +33,7 @@ export const placeInfo = [
         'elit. Fugit, provident corrupti repudiandae nihil harum vel? Ducimus quos inventore suscipit sed laudantium eum quae, ex obcaecati quisquam? Pariatur omnis in reiciendis!',
       description:
         'Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium labore modi error sed ad quis obcaecati aliquid officia rerum alias quia voluptatum, consequatur at optio quas nisi autem necessitatibus nemo!',
-      
+      img: '.././images/Project2.PNG',
       
     },
     {/*
