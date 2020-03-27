@@ -36,6 +36,7 @@ export const placeInfo = [
       img: '.././images/Project2.PNG',
       
     },
+    
     {/*
     }
     {

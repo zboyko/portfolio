@@ -5,9 +5,7 @@ import { Link } from 'react-router-dom';
 function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-dark">
-      <a className="navbar-brand ml-5" href="#">
-        <img src={logo} alt="logo" style={{ width: '35px' }} />
-      </a>
+    
       <button
         className="navbar-toggler"
         type="button"
@@ -27,7 +25,7 @@ function Navbar() {
           <li className="nav-item active">
             <Link className="nav-link text-white text-uppercase ml-5" to="/">
               Home
-              <i className="fas fa-home" />
+              
               
             </Link>
           </li>
