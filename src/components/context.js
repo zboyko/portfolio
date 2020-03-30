@@ -8,7 +8,7 @@ class InfoProvider extends Component {
     info: placeInfo,
     
     detailInfo: detailInfo,
-    about: about
+    
   };
 
   getItem = id => {
@@ -31,15 +31,14 @@ class InfoProvider extends Component {
         value={{
           info: this.state.info,
      
-          maps: this.state.maps,
+        
           headerTitle: this.state.headerTitle,
           headerSubTitle: this.state.headerSubTitle,
           headerText: this.state.headerText,
           detailInfo: this.state.detailInfo,
-          about: this.state.about,
-          name: this.state.name,
-          avatar: this.state.avatar,
-          comment: this.state.comment,
+         
+          
+   
           handleDetail: this.handleDetail
         }}
       >

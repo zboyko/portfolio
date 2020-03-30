@@ -11,8 +11,7 @@ import About from './components/pages/About';
 import Contact from './components/pages/Contact';
 import Projects from './components/pages/Projects';
 import NotFoundPage from './components/pages/NotFoundPage';
-import Jumbotron  from './components/Jumbotron';
-import 'bootstrap/dist/css/bootstrap.min.css';
+// import misc
 
 class App extends Component {
   render() {

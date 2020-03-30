@@ -4,11 +4,12 @@ export const placeInfo = [
       headerTitle: 'Project1',
       headerSubTitle: 'Building a Wordpress Website',
       headerText:
-        'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit laboriosam cum recusandae quas? Natus, alias architecto error, sunt quae non placeat a eius minus maiores libero laborum perferendis, nobis qui?',
+        'My first project i worked on building an example wordpress site for a Chalet company. Find out more to see what i got up too in more detail',
       title: 'Molestias officia excepturi',
       description:
-        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates qui voluptate odio quod doloremque unde reprehenderit velit quaerat. Deserunt voluptatem natus suscipit aliquid, eligendi sequi dicta porro? Laudantium, libero est?',
+        'Wordpress gave many templates to access that i could use to build my web pages. I edited these templates by using elementor as a plugin. Overall using Wordpress to build websites is very easy and less time consument.',
       img: '.././images/Project1.PNG',
+      img2: '.././images/Project2.PNG',
       
     },
     {
@@ -16,10 +17,10 @@ export const placeInfo = [
       headerTitle: 'Project2',
       headerSubTitle: 'Building a website using Bootstrap',
       headerText:
-        'ipsum dolor sit, amet consectetur adipisicing elit. Dicta minus nulla nesciunt ex magni, fuga magnam accusantium sed nihil, eius similique? Dolores, ullam! Nisi magni, esse beatae ea suscipit asperiores!',
+        'Here i learned the fundmentals of Boostarp and worked on building an example website for a festival company ',
       title: 'Lorem unitye',
       description:
-        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Est incidunt quo veritatis ad, nobis dolorum corrupti excepturi, natus fugit necessitatibus nihil nam minus explicabo debitis quod accusamus consectetur a eaque.',
+        'Using Boostrap was fun because it made with all the default styles already prepared, which looked very good.',
       img: '.././images/Project2.PNG',
       
     },
@@ -28,7 +29,7 @@ export const placeInfo = [
       headerTitle: 'Project3',
       headerSubTitle: 'Creating a Portfolio using React',
       headerText:
-        'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis quas voluptatum quisquam nemo ratione neque aspernatur! Modi veniam distinctio velit quidem? Asperiores ut, atque odio porro debitis unde obcaecati esse!',
+        'In this project i built my portfolio, which is the one you are viewing now',
       title:
         'elit. Fugit, provident corrupti repudiandae nihil harum vel? Ducimus quos inventore suscipit sed laudantium eum quae, ex obcaecati quisquam? Pariatur omnis in reiciendis!',
       description:
@@ -91,45 +92,6 @@ export const placeInfo = [
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates qui voluptate odio quod doloremque unde reprehenderit velit quaerat. Deserunt voluptatem natus suscipit aliquid, eligendi sequi dicta porro? Laudantium, libero est?',
     img: '.././images/garaj.jpg',
-    maps:
-      'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1123.3850145412064!2d37.600589158335865!3d55.72774864513666!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54b0be3ac9d11%3A0x735806d25b3bdc55!2z0JzRg9C30LXQuSDRgdC-0LLRgNC10LzQtdC90L3QvtCz0L4g0LjRgdC60YPRgdGB0YLQstCwIMKr0JPQsNGA0LDQtsK7!5e0!3m2!1sru!2sru!4v1547763408711'
+   
   };
   
-  export const about = [
-    {
-      id: 1,
-      aboutTitle: 'Lorem ipsum',
-      aboutText:
-        'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure maiores optio praesentium voluptate natus velit atque eaque eos quae perspiciatis. Perferendis reprehenderit aspernatur excepturi sint saepe quam laboriosam provident ducimus.'
-    },
-    {
-      id: 2,
-      aboutTitle: 'Lorem ipsum',
-      aboutText:
-        'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure maiores optio praesentium voluptate natus velit atque eaque eos quae perspiciatis. Perferendis reprehenderit aspernatur excepturi sint saepe quam laboriosam provident ducimus.'
-    },
-    {
-      id: 3,
-      aboutTitle: 'Lorem ipsum',
-      aboutText:
-        'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure maiores optio praesentium voluptate natus velit atque eaque eos quae perspiciatis. Perferendis reprehenderit aspernatur excepturi sint saepe quam laboriosam provident ducimus.'
-    },
-    {
-      id: 4,
-      aboutTitle: 'Lorem ipsum',
-      aboutText:
-        'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure maiores optio praesentium voluptate natus velit atque eaque eos quae perspiciatis. Perferendis reprehenderit aspernatur excepturi sint saepe quam laboriosam provident ducimus.'
-    },
-    {
-      id: 5,
-      aboutTitle: 'Lorem ipsum',
-      aboutText:
-        'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure maiores optio praesentium voluptate natus velit atque eaque eos quae perspiciatis. Perferendis reprehenderit aspernatur excepturi sint saepe quam laboriosam provident ducimus.'
-    },
-    {
-      id: 6,
-      aboutTitle: 'Lorem ipsum',
-      aboutText:
-        'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure maiores optio praesentium voluptate natus velit atque eaque eos quae perspiciatis. Perferendis reprehenderit aspernatur excepturi sint saepe quam laboriosam provident ducimus.'
-    }
-  ];

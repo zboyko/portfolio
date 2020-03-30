@@ -14,9 +14,7 @@ class AboutCard extends Component {
                 {aboutTitle}
               </h5>
               <p className="card-text">{aboutText}</p>
-              <Link to="/" className="card-link">
-                Read More >>
-              </Link>
+              
             </div>
           </div>
         )}

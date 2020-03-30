@@ -9,7 +9,7 @@ class Info extends Component {
       headerTitle,
       headerSubTitle,
       headerText,
-      img
+      img,
     } = this.props.item;
 
     return (

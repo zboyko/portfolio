@@ -22,9 +22,9 @@ class Projects extends Component {
           return (
             <React.Fragment>
               <HeaderProjects className="conteiner-fluid align-items-center">
-                <h3 className="display-3 font-weight-bold">{headerTitle}</h3>
-                <h4 className="display-5">{headerSubTitle}</h4>
-                <p>{headerText}</p>
+                <h4 className="display-4 font-weight-bold">{headerTitle}</h4>
+                <h3 className="display-5">{headerSubTitle}</h3>
+                
                 {/* Social Icons */}
                 <div className="container mt-5">
                   <div className="row justify-content-center">
@@ -40,13 +40,12 @@ class Projects extends Component {
                     </div>
                   </div>
                 </div>
-              </HeaderProjects>
-               {/* Nav Link */}
-               <div className="container">
-             
-                  
-                  
+                
                
+              </HeaderProjects>
+           
+               
+                                
                 {/* Tab Pane */}
                 <div className="tab-content mb-5">
                   {/* About Place Tab */}
@@ -57,11 +56,12 @@ class Projects extends Component {
                   >
                     <h2 className="mb-3">{title}</h2>
                     <p>{description}</p>
-                    <img
+                   <div className="container">             
+                   <div className="tab-content mb-5"> <img
                       src={img}
                       alt={title}
                       className="img-thumbnail img-fluid"
-                    />
+                    /></div>
                   </div>
                  
                 </div>

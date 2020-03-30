@@ -25,6 +25,7 @@ function Navbar() {
           <li className="nav-item active">
             <Link className="nav-link text-white text-uppercase ml-5" to="/">
               Home
+              <i className="fas fa-home" />
               
               
             </Link>
@@ -35,6 +36,7 @@ function Navbar() {
               to="/about"
             >
               about
+              <i className="fas fa-info-circle" />
             </Link>
           </li>
           <li className="nav-item">
@@ -43,6 +45,8 @@ function Navbar() {
               to="/contact"
             >
               contact 
+              
+              <i className="fas fa-envelope" />
             </Link>
           </li>
         </ul>

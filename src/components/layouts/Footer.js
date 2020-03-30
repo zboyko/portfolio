@@ -7,22 +7,21 @@ function Footer() {
       <div className="footer-middle">
         <div className="container">
           <div className="row">
-            {/* Column 1 */}
-            <div className="col-md-3 col-sm-6">
-              <h4>Lorem ipsum</h4>
-              <ul className="list-unstyled">
-                <li>Lorem ipsum</li>
-                <li>Lorem ipsum</li>
-                <li>Lorem ipsum</li>
-                <li>Lorem ipsum</li>
-              </ul>
-            </div>
-         
-           
-          
+
+            <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
+              <h6 class="mb-0">Get in touch with me on social media!</h6>
+            </div>    
+            {/* Footer icons */}   
+              <div class="col-md-6 col-lg-7 text-center text-md-right">
+                <button type="button" class="btn btn-fb text-white btn-outline-light"><i class="fab fa-facebook-f pr-1"></i> Facebook</button>
+                <button type="button" class="btn btn-gplus text-white btn-outline-light"><i class="fab fa-google-plus-g pr-1"></i> Google +</button>
+                <button type="button" class="btn btn-li text-white btn-outline-light"><i class="fab fa-linkedin-in pr-1"></i> Linkedin</button>
+              </div>
+
           </div>
           {/* Footer Bottom */}
-          <div className="footer-bottom">
+          
+          <div class="footer-copyright text-center py-3">
             <p className="text-xs-center">
               &copy;{new Date().getFullYear()} Zain Boyko's Portfolio - All Rights
               Reserved
