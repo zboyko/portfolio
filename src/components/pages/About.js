@@ -7,7 +7,9 @@ class About extends Component {
   render() {
     return (
       <div className="container">
+        <h3 class="display-4 text-center">Take a look at some of the projects i have been doing</h3>
         <div className="row mt-5">
+        
           <InfoConsumer>
             {value => {
               return value.info.map(item => {

@@ -29,14 +29,15 @@ class Projects extends Component {
                 <div className="container mt-5">
                   <div className="row justify-content-center">
                     <div className="col-2">
+                    <a href="https://www.facebook.com/zain.boyko">
+
                       <i className="fab fa-facebook-f" />
-                    </div>
-                    
+                      </a>
+                    </div>                  
                     <div className="col-2">
-                      <i className="fab fa-google-plus-g" />
-                    </div>
-                    <div className="col-2">
+                    <a href="https://www.linkedin.com/in/zain-boyko-08a420193/">
                       <i className="fab fa-linkedin-in" />
+                    </a>
                     </div>
                   </div>
                 </div>

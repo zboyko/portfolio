@@ -13,9 +13,8 @@ function Footer() {
             </div>    
             {/* Footer icons */}   
               <div class="col-md-6 col-lg-7 text-center text-md-right">
-                <button type="button" class="btn btn-fb text-white btn-outline-light"><i class="fab fa-facebook-f pr-1"></i> Facebook</button>
-                <button type="button" class="btn btn-gplus text-white btn-outline-light"><i class="fab fa-google-plus-g pr-1"></i> Google +</button>
-                <button type="button" class="btn btn-li text-white btn-outline-light"><i class="fab fa-linkedin-in pr-1"></i> Linkedin</button>
+                <button type="button" class="btn btn-fb text-white btn-outline-light"><a href="https://www.facebook.com/zain.boyko"><i class="fab fa-facebook-f pr-1"></i> Facebook</a></button>      
+                <button type="button" class="btn btn-li text-white btn-outline-light"><a href="https://www.linkedin.com/in/zain-boyko-08a420193/"><i class="fab fa-linkedin-in pr-1"></i> Linkedin</a></button>
               </div>
 
           </div>

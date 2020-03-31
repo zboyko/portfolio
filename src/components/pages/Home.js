@@ -15,54 +15,45 @@ class Home extends Component {
   </Image>
         <div className="container">
         <Jumbotron style={{ backgroundImage: `url(${bgimage})`, backgroundSize: 'cover' }}>
-        <h1 class="display-4 text-white">Want to get in touch?</h1>
-        <h6 class="text-white">My Email is:<a href="mailto:zain.boyko13@gmail.com" class="linkborder"> zain.boyko13@gmail.com</a> </h6>
+        <h1 class="display-4 text-white">Hi I'm Zain</h1>
+        <h3 class="text-white">Web Developer</h3>
           </Jumbotron>
  
            <div className="well well-sm">
              <h3>
-               <strong>Contact</strong>
+               <strong>Education</strong>
              </h3>
            </div>
- 
-           <div className="row">
-           
-             <div className="col-md-5">
-               
-               <form>
-                 <div className="form-group">
-                 <label for="exampleFormControlInput1">Full Name</label>
-                   <input
-                     type="text"
-                     className="form-control"
-                     placeholder="Full Name"
-                   />
-                 </div>
-                 <div className="form-group">
-                 <label for="exampleFormControlInput1">Email</label>
-                   <input
-                     type="email"
-                     className="form-control"
-                     placeholder="Email"
-                   />
-                 </div>
-                   <label for="exampleFormControlInput1">Message</label>            
-                 <textarea
-                   className="form-control"
-                   cols="30"
-                   rows="3"
-                   placeholder="Message"
-                 />
-                 <Link className="btn btn-outline-primary text-uppercase mt-1">
-                   <i className="fa fa-paper-plane-o" aria-hidden="true" />
-                   <i className="fab fa-telegram-plane" />
-                   &nbsp;Send
-                 </Link>
-               </form>
+           <div class="card-group">
+            <div class="card">
+             <div class="card-body">
+              <h5 class="card-title">Open Clasrooms</h5>
+                <p class="card-text">Currently a student studying to become a full stack developer</p>
+
              </div>
-           </div>
-         </div>
-       </section>  
+            </div>
+              <div class="card">
+   
+                <div class="card-body">
+                  <h5 class="card-title">Wiagn and Leigh College</h5>
+                    <p class="card-text">I completed a level 3 BTECH named Information and technology systems, which covered all the fundamentals of IT</p>
+                    <p class="card-text"><small class="text-muted">Qualification Grade: D*D*D* </small></p>
+
+                </div>
+                </div>
+              <div class="card">
+   
+                <div class="card-body">
+                  <h5 class="card-title">Kemnal Technology College</h5>
+                    <p class="card-text">This was my secondary school where i studied IT and Technology, which began my passion for computing</p>
+                    
+                </div>
+ 
+              </div>
+
+            </div>
+            </div>
+</section>  
     );
   }
 }

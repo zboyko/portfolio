@@ -5,11 +5,11 @@ export const placeInfo = [
       headerSubTitle: 'Building a Wordpress Website',
       headerText:
         'My first project i worked on building an example wordpress site for a Chalet company. Find out more to see what i got up too in more detail',
-      title: 'Molestias officia excepturi',
+      title: 'building my first site',
       description:
         'Wordpress gave many templates to access that i could use to build my web pages. I edited these templates by using elementor as a plugin. Overall using Wordpress to build websites is very easy and less time consument.',
       img: '.././images/Project1.PNG',
-      img2: '.././images/Project2.PNG',
+     
       
     },
     {
@@ -18,7 +18,7 @@ export const placeInfo = [
       headerSubTitle: 'Building a website using Bootstrap',
       headerText:
         'Here i learned the fundmentals of Boostarp and worked on building an example website for a festival company ',
-      title: 'Lorem unitye',
+      title: 'Finally using a lot of code',
       description:
         'Using Boostrap was fun because it made with all the default styles already prepared, which looked very good.',
       img: '.././images/Project2.PNG',
@@ -31,10 +31,10 @@ export const placeInfo = [
       headerText:
         'In this project i built my portfolio, which is the one you are viewing now',
       title:
-        'elit. Fugit, provident corrupti repudiandae nihil harum vel? Ducimus quos inventore suscipit sed laudantium eum quae, ex obcaecati quisquam? Pariatur omnis in reiciendis!',
+        'I combined my previous experience with bootstrap to help build a ReactBootstrap application. So far the hardest project.',
       description:
-        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium labore modi error sed ad quis obcaecati aliquid officia rerum alias quia voluptatum, consequatur at optio quas nisi autem necessitatibus nemo!',
-      img: '.././images/Project2.PNG',
+        'For me during this build took time to understand. However i finally understood how bring the components i needed and render them.',
+      img: '.././images/Project3.PNG',
       
     },
     
